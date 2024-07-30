@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation Bar</title>
+    </head>
+    <style>
+        .navbar{
+        
+            background-color: olive;
+            padding-right: 15px;
+            padding-left: 15px;
+            position: sticky;
+            top:20px;
+        }
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: beige;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+    
+button{
+    background-color: greenyellow;
+    margin-left: 10px;
+    color: black;
+    border-radius: 20%;
+
+}
+h3{
+
+   margin-right: auto;
+    color: aquamarine ;
+    padding: 10px;
+   
+}
+
+.content{
+      width: 100%;
+      height: 100vh;
+    background-position: center;
+    background-size:cover;
+    
+}
+p{
+    background-color: yellowgreen;
+    text-align: center;
+    padding:40px;
+
+}
+body{
+background-color:#FFC96F;
+}
+a{
+     text-decoration: none;
+     color:antiquewhite;
+}
+.logo img{
+    border-radius: 50%;
+} 
+.col a{
+    color:black;
+    border-radius: 80%;
+}
+</style>
+    <body>
+        <nav class ="navbar">
+            <div class="navdiv">
+            <div class ="logo"><img src="logoo.jpg" width="100%"  height="90px"alt="dog face"></img></div> 
+            <h3>PET ADOPTION </h3>
+            <ul>
+                <li><a href="./task3.html">Home</a></li>
+               <li><a href="about.html">About us</a></li>
+               <li><a href="./contact.html">Contact</a></li>
+               <button class="col"><a href="./signin.html">Sign in</a></button>
+               <button class="col"><a href ="./signup.html">Sign up</a></button>
+            </ul>
+        </nav> 
+        <div class="content">
+            <img src="dogie.jpg" alt="dog pic" width="1380px"  height="100%">
+        </div>
+    </div>
+    <footer><p>petadopt@gmail.com</p></footer>
+   
+      
+    </body>
+   
+</html>
